@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Features() {
-  return <></>;
+  return (
+    <>
+      <h1>features</h1>
+    </>
+  );
 }

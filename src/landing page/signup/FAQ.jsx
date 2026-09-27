@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Navbar() {
+export default function FAQ() {
   return (
     <>
-      <h1>Zerodha</h1>
+      <h1>FAQ</h1>
     </>
   );
 }

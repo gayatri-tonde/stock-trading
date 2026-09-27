@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Hero() {
-  return <></>;
+  return (
+    <>
+      <h1>hero</h1>
+    </>
+  );
 }

@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Pricing() {
-  return <></>;
+  return (
+    <>
+      <h1>pricing</h1>
+    </>
+  );
 }
