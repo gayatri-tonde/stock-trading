@@ -10,13 +10,11 @@ import Footer from "../common/footer";
 export default function PricingPage() {
   return (
     <>
-      <Navbar />
       <Hero />
       <InfoTable />
       <Charges />
       <DematAMC />
       <ChargesExplain />
-      <Footer />
     </>
   );
 }

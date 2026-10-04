@@ -10,13 +10,11 @@ import Footer from "../common/footer.jsx";
 export default function SignupPage() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Investment />
       <Procedure />
       <Benefits />
       <FAQ />
-      <Footer />
     </>
   );
 }
