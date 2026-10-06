@@ -1,19 +1,15 @@
 import React from "react";
 import Hero from "./hero";
-import Investment from "./investment";
+import Investment from "./investments";
 import FAQ from "./FAQ";
-import Navbar from "../common/Navbar";
 import Procedure from "./procedure";
-import Benefits from "./benefits";
-import Footer from "../common/footer.jsx";
 
 export default function SignupPage() {
   return (
     <>
       <Hero />
-      <Investment />
       <Procedure />
-      <Benefits />
+      <Investment />
       <FAQ />
     </>
   );

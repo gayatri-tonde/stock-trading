@@ -8,6 +8,7 @@ import SupportPage from "./landing page/support/supportPage";
 import AboutPage from "./landing page/about/aboutPage";
 import Navbar from "./landing page/common/Navbar";
 import Footer from "./landing page/common/footer";
+import OpenAccount from "./landing page/common/openAccount";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -19,6 +20,7 @@ createRoot(document.getElementById("root")).render(
       <Route path="/support" element={<SupportPage />} />
       <Route path="/about" element={<AboutPage />} />
     </Routes>
+    <OpenAccount />
     <Footer />
   </BrowserRouter>,
 );

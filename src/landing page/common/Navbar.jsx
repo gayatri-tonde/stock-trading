@@ -25,7 +25,7 @@ export default function Navbar() {
           <div class="collapse navbar-collapse col-4" id="navbarNav">
             <ul class="navbar-nav d-flex justify-content-evenly w-100">
               <li class="nav-item">
-                <Link class="nav-link" aria-current="page" to="/singup">
+                <Link class="nav-link" aria-current="page" to="/signup">
                   Signup
                 </Link>
               </li>

@@ -12,7 +12,6 @@ export default function HomePage() {
       <Hero />
       <Features />
       <Pricing />
-      <OpenAccount />
     </>
   );
 }
