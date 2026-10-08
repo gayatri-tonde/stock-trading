@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="container-fluid bg-body-tertiary mt-5 px-5 pt-3 ">
+    <footer className="container-fluid bg-light-subtle border-top mt-5 px-5 pt-3 ">
       <div className="row px-5  m-3">
         <div className="col-lg-3 text-center pb-3">
           <img src="images/Finora Green Fintech Logo.png" width="50%" />
@@ -10,27 +10,27 @@ export default function Footer() {
             &copy; 2026 Finora. All rights reserved.
           </div>
           <div className="mt-2 fs-5">
-            <a href="/">
+            <a href="/#">
               <i class="fa-brands fa-facebook"></i>
             </a>
             &nbsp;
-            <a href="/">
+            <a href="/#">
               <i class="fa-brands fa-instagram"></i>
             </a>
             &nbsp;
-            <a href="/">
+            <a href="/#">
               <i class="fa-brands fa-twitter"></i>
             </a>
             &nbsp;
-            <a href="/">
+            <a href="/#">
               <i class="fa-brands fa-linkedin"></i>
             </a>
             &nbsp;
-            <a href="/">
+            <a href="/#">
               <i class="fa-brands fa-whatsapp"></i>
             </a>
             &nbsp;
-            <a href="/">
+            <a href="/#">
               <i class="fa-brands fa-telegram"></i>
             </a>
           </div>
@@ -38,24 +38,24 @@ export default function Footer() {
 
         <div className="col-lg-3 text-center pb-3">
           <h5>Platform</h5>
-          <a href="/">Home </a> <br />
-          <a href="/">Markets </a> <br />
-          <a href="/">Stocks </a> <br />
-          <a href="/">Portfolio</a> <br />
+          <a href="/#">Home </a> <br />
+          <a href="/#">Markets </a> <br />
+          <a href="/#">Stocks </a> <br />
+          <a href="/#">Portfolio</a> <br />
         </div>
         <div className="col-lg-3 text-center pb-3">
           <h5>Company</h5>
-          <a href="/">About Us </a> <br />
-          <a href="/">Careers </a> <br />
-          <a href="/">Contact Us </a> <br />
-          <a href="/">Help & Support</a> <br />
+          <a href="/#">About Us </a> <br />
+          <a href="/#">Careers </a> <br />
+          <a href="/#">Contact Us </a> <br />
+          <a href="/#">Help & Support</a> <br />
         </div>
         <div className="col-lg-3 text-center pb-3">
           <h5>Resources</h5>
-          <a href="/">Trading Guide </a> <br />
-          <a href="/">Legal Documents</a> <br />
-          <a href="/">Pricing </a> <br />
-          <a href="/">FAQ</a> <br />
+          <a href="/#">Trading Guide </a> <br />
+          <a href="/#">Legal Documents</a> <br />
+          <a href="/#">Pricing </a> <br />
+          <a href="/#">FAQ</a> <br />
         </div>
       </div>
       <div
@@ -85,9 +85,9 @@ export default function Footer() {
         </p>
       </div>
       <div className="col px-5 mx-3 text-center">
-        <a href="/">Terms & Conditions</a> &nbsp;&nbsp;&nbsp;
-        <a href="/">Privacy Policy</a> &nbsp;&nbsp;&nbsp;
-        <a href="/">Risk Disclosure</a>
+        <a href="/#">Terms & Conditions</a> &nbsp;&nbsp;&nbsp;
+        <a href="/#">Privacy Policy</a> &nbsp;&nbsp;&nbsp;
+        <a href="/#">Risk Disclosure</a>
       </div>
     </footer>
   );

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 sticky-top">
+      <nav class="navbar navbar-expand-lg bg-light-subtle border-bottom px-5 sticky-top">
         <div class="container-fluid mx-5 px-5">
           <Link class="navbar-brand col-8 fw-bold " to="/">
             <img src="images/Finora Green Fintech Logo.png" width="20%" />
