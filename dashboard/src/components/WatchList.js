@@ -14,7 +14,7 @@ const WatchList = () => {
         <span className="counts"> 9 / 50</span>
       </div>
 
-      <ul className="list"></ul>
+      <ul className=""></ul>
     </div>
   );
 };
