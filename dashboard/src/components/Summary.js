@@ -13,12 +13,12 @@ const Summary = () => {
           <p>Equity</p>
         </span>
 
-        <div className="data">
-          <div className="first">
+        <div className="data ">
+          <div className="first ">
             <h3>3.74k</h3>
             <p>Margin available</p>
           </div>
-          <hr />
+          <hr className="border-end border-black" style={{ height: "100px" }} />
 
           <div className="second">
             <p>
@@ -37,14 +37,14 @@ const Summary = () => {
           <p>Holdings (13)</p>
         </span>
 
-        <div className="data">
-          <div className="first">
+        <div className="data ">
+          <div className="first ">
             <h3 className="profit">
               1.55k <small>+5.20%</small>{" "}
             </h3>
             <p>P&L</p>
           </div>
-          <hr />
+          <hr className="border-end border-black" style={{ height: "100px" }} />
 
           <div className="second">
             <p>
